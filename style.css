@@ -1,9 +1,13 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-}
-body{
-    background-color: #df9d4d69;
+    margin: 0;
+    padding: 0;
 }
 img{
     height: 400px;
@@ -25,4 +29,25 @@ a{
     color: #070be7;
     text-decoration: none;
     line-height: 1.4;
+}
+.index-page{
+    height: 300px;
+    margin: auto;
+    padding: 14px 0px;
+    background-color: #f35c04;
+}
+.index-page h1{
+    background-color: #e79907;
+    margin-bottom: 40px;
+    padding: 10px;
+    font-size: 30px;
+}
+.index-page ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.index-page ul li a{
+    color: #000000d0;
+    border-bottom: 2px solid #ffc400;
+    padding: 10px;
 }
